@@ -18,7 +18,8 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'gradient-start': '#FF8938',
+                'gradient-end': '#f00',
               }
             }
           }
@@ -39,7 +40,7 @@
                 <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>
                     tea time at The <br> Tea House</h1>
                 <p class="text-base font-medium	 py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More <i class="fa-solid fa-right-long"></i> </button>
               </div>
 
                 <div>
@@ -126,12 +127,12 @@
  <!-- great section ended -->
 
  <!-- clients section started -->
-        <section class="my-24 mx-16 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#f00] px-16 py-24 flex flex-col lg:flex-row gap-12">
+        <section class="my-24 mx-16 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24 flex flex-col lg:flex-row gap-12">
             <div class="flex lg:pr-28 items-center">
                 <div class="space-y-5">
                     <h2 class="text-4xl lg:text-5xl font-bold text-white">Meet Our Super <br> Clients</h2>
                      <p class="text-sm lg:text-lg text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                     <button class="btn  bg-white border-0 ">Show All</button>
+                     <button  class="btn text-gradient-to-r from-gradient-start to-gradient-end">Show All <i class="fa-solid fa-right-long"></i></button>
                 </div>
             </div>
             <div class="relative">
@@ -212,18 +213,60 @@
           </div>
     </div>     
 </section>
-
-
-
-
-
-
-
 <!-- card section ended -->
     </main>
-    <footer>
 
-    </footer>
+
     
+<footer class="px-5 lg:p-10 bg-base-200 text-base-content" >
+
+  <div class="flex justify-between my-24">
+      <img src="images/cup.png" alt="">
+      <p>
+        <span>Ready to get strated?</span>
+        <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Started <i class="fa-solid fa-right-long"></i></button>
+      </p>
+  </div>
+
+<div class="footer " >
+  <div>
+    <span class="footer-title">Quick Links</span> 
+     <a class="link link-hover">Branding</a> 
+     <a class="link link-hover">Design</a> 
+     <a class="link link-hover">Marketing</a> 
+     <a class="link link-hover">Advertisement</a>
+  </div> 
+  <div>
+     <span class="footer-title">Our Service</span> 
+     <a class="link link-hover">About us</a> 
+     <a class="link link-hover">Contact</a> 
+     <a class="link link-hover">Jobs</a> 
+     <a class="link link-hover">Press kit</a>
+  </div> 
+ <div>
+   <span class="footer-title">Help</span> 
+   <a class="link link-hover">Terms of use</a> 
+   <a class="link link-hover">Privacy policy</a> 
+   <a class="link link-hover">Cookie policy</a>
+ </div> 
+ <div>
+   <span class="footer-title">Subscribe to our newsletter</span> 
+   <div class="form-control w-80">
+     <label class="label">
+       <span class="label-text">Enter your email address</span>
+     </label> 
+     <div class="relative">
+       <input type="text" placeholder="username@site.com" class=" py-4 bg-transparent border-b-2 border-black outline-none pr-16" /> 
+       <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end absolute top-0 text-white rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="mt-14 text-center">
+    <p>© 2027 UIDesign.to - All rights by Fresh Tea Industries Ltd.</p>
+  </div>
+</footer>
+
 </body>
 </html>
